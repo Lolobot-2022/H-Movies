@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ht">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+<style>
+ /* Pour redimensionner la plupart des petits ecrans de mobile  */
+
+ .card-container {
+    margin-left: 15px;
+    display: flex;
+    overflow-x: scroll;
+    cursor:pointer;
+    padding: 0;
+    scroll-snap-type: x mandatory;
+  }
+
+  .listing-card {
+    cursor: pointer;
+    border-radius: 8px;
+    border:1px solid rgba(0, 0, 0, 0);
+    position: relative;
+    width: 100%;
+    height: 150px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+    padding-top: 0;
+    margin-left: 0.4rem;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 152px;
+    scroll-snap-align: start;
+    background-color:black; 
+
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color:transparent;
+}
+
+::-webkit-scrollbar {
+    /* height: 2px; */
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* border-radius: 1px; */
+}
+
+.listing-card .video {
+    height: 150px;
+    width:100%;
+    filter: brightness(120%);
+  }
+
+.listing-card .video iframe { 
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+    
+    
+  }
+
+
+
+.titre {
+    display: flex;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: bold 700;
+    color:#D4D4D4;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 2px;
+   
+  }
+
+
+</style>
+    
+</head>
+
+<body>
+  
+  <div class="after-vidprincipal">
+    <h1 translate="no" class="titre">Nouveaux Series</h1>
+    <div class="card-container">
+    
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+     
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+     
+      <div onmouseover="pauseVid()" class="listing-card">
+        <div class="imageVideo">
+          <div class="image">
+            <div class="video" style='position:relative;'>
+
+              <iframe src='https://vimeo.com/showcase/9762175/embed' allowfullscreen frameborder='0' 
+              ></iframe></div>
+          </div>
+        </div>
+      </div>
+            
+     
+
+ </body>
+</html>
